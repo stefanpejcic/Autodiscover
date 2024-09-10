@@ -1,6 +1,9 @@
 import re
 from http.server import BaseHTTPRequestHandler, HTTPServer
 
+# By David Mercereau
+# Licence Beerware
+
 class SimpleHTTPRequestHandler(BaseHTTPRequestHandler):
     
     def extract_domain(self, domain):
