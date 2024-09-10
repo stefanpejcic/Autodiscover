@@ -35,3 +35,8 @@ Then add to nginx conf file for domain:
         proxy_pass http://localhost:8000/mail/config-v1.1.xml;
     }
 ```
+
+## Credits
+
+Based on https://www.canaletto.fr/post/autodiscover-and-autoconfig-imap-smtp
+
