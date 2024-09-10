@@ -1,5 +1,8 @@
 services:
   autodiscover:
     build: .
+    mem_limit: 12M
+    mem_reservation: 5M
+    restart: on-failure:40
     ports:
       - "8000:8000"
